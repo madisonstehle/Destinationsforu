@@ -1,0 +1,38 @@
+body {
+    height: 100%;
+    background-color: #F4FFE6;
+}
+header h1{
+    background-color: #B3897D;
+    margin: 0px;
+    font-family: 'Long Cang', cursive;
+    color: #F4FFE6;
+    font-size: 50pt;
+    text-align: center; 
+    -webkit-text-stroke-width: .25px; 
+    -webkit-text-stroke-color: black;
+    border-bottom: 5px solid #FFD6CC
+}
+.desc {
+    margin-bottom: 50px;
+}
+h3 {
+    font-family: 'Long Cang', cursive;
+    color: #B3897D;
+    font-size: 25pt;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+nav ul{
+    background-color: #7F94CC;
+    margin: 0px;
+}
+main {
+    background-color: #F4FFE6;
+}
+article img {
+    width: 300px;
+}
+footer {
+    background-color: #7F94CC;
+}
