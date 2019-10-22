@@ -5,11 +5,11 @@ body {
 header h1{
     background-color: #B3897D;
     margin: 0px;
-    font-family: 'Long Cang', cursive;
+    font-family: 'Amatic SC', cursive;
     color: #F4FFE6;
     font-size: 50pt;
     text-align: center; 
-    -webkit-text-stroke-width: .25px; 
+    -webkit-text-stroke-width: .005px; 
     -webkit-text-stroke-color: black;
     border-bottom: 5px solid #FFD6CC
 }
@@ -17,7 +17,7 @@ header h1{
     margin-bottom: 50px;
 }
 h3 {
-    font-family: 'Long Cang', cursive;
+    font-family: 'Amatic SC', cursive;
     color: #B3897D;
     font-size: 25pt;
     margin-bottom: 15px;
