@@ -25,10 +25,22 @@ h3 {
 }
 nav ul{
     background-color: #7F94CC;
-    margin: 0px;
     list-style-type: none;
     margin: 0%;
-    padding: 0%;
+    padding: 8px;
+    overflow: hidden;
+}
+li {
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    color: #FFD6CC;
+}
+li a:hover {
+    color: #F4FFE6;
 }
 main {
     background-color: #F4FFE6;
