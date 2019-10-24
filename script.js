@@ -46,7 +46,7 @@ function showDestinationPics(){
     var numberDestinationPics = prompt('Hey! How many pretty pictures of destinations do you want to see?');
 
     for (var i = 0; i < numberDestinationPics; i++) {
-        document.write('<img src="http://placecage.com/g/200/300" crossorigin="anonymous">');
+        document.write('<img src="https://picsum.photos/200/300.jpg" crossorigin="anonymous">');
         console.log('just checking that this worked')
     }
 }
