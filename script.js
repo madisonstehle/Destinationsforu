@@ -12,9 +12,9 @@ document.write('<h3>Thank you for helping me provide content, ' + username + '!<
 document.write('<h3>Thank you for visiting my site, ' + username + '!</h3>');
 }
 
-// inputs: place, description
-// work:
-// outputs: html article with place, placeholder img, and description
+// inputs (parameters): place, description
+// work (code in function): do the thing
+// outputs (return value): html article with place, placeholder img, and description
 
 function createDestinationArticle(destination, description) {
     var destinationArticle = '<article>' +
@@ -27,11 +27,28 @@ function createDestinationArticle(destination, description) {
 
 var wantsToCreate = prompt('Hey there! Would you like to add your own destination recommendation?')
 
-if (wantsToCreate === 'yes') {
+// if (wantsToCreate === 'yes') {
+//     var enteredDestination = prompt('What is the name of your destination?');
+//     var enteredDescription = prompt('Enter a brief description');
+//     var newDestination = createDestinationArticle(enteredDestination, enteredDescription);
+//     document.write(newDestination);
+// }
+
+while (wantsToCreate === 'yes'){
     var enteredDestination = prompt('What is the name of your destination?');
     var enteredDescription = prompt('Enter a brief description');
     var newDestination = createDestinationArticle(enteredDestination, enteredDescription);
     document.write(newDestination);
+    wantsToCreate = prompt('Want to add another destination?')
+}
+
+function showDestinationPics(){
+    var numberDestinationPics = prompt('Hey! How many pretty pictures of destinations do you want to see?');
+
+    for (var i = 0; i < numberDestinationPics; i++) {
+        document.write('<img src="http://placecage.com/g/200/300" crossorigin="anonymous">');
+        console.log('just checking that this worked')
+    }
 }
 
 // EXAMPLE OF FUNCTION
@@ -64,4 +81,37 @@ if (wantsToCreate === 'yes') {
 //     var catDescription = prompt('What is the description of the cat?');
 //     var newCat = createCatArticle(catName, catImage, catDescription);
 //     document.write(newCat);
+// }
+
+// Red Light Loop
+// var lightColor = prompt('What color is the light?');
+
+// while (lightColor === 'red') {
+//     console.log('Stop the car!');
+//     lightColor = prompt('What color is the light?');
+// } 
+
+// console.log('Goooooo!');
+
+// Push Up Loop
+// var pushupCounter = 0;
+
+// while (pushupCounter < 10) {
+//     console.log('Do a pushup!');
+//     // pushupCounter = pushupCounter + 1;
+//     // pushupCounter += 1;
+//     pushupCounter++;
+// }
+
+// console.log('You did the pushups!')
+
+// Shorthand: For Loops!
+// for (var pushupCounter = 0; pushupCounter < 10; pushupCounter++) {
+//     console.log('Do a pushup!');
+//     console.log('I have done ' + pushupCounter + ' pushups!');
+//     }
+
+// for (var i = 0; i < 10; i++) {
+//     console.log('Do a pushup!');
+//     console.log('I have done ' + i + ' pushups!');
 // }
